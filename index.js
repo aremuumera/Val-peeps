@@ -56,6 +56,6 @@ document.querySelector('.love-button button:first-child').addEventListener('clic
 
 document.querySelector('.love-button button:last-child').addEventListener('click', () => {
     let message = "I%20am%20so%20sorry%20I%20can't%20be%20your%20val%F0%9F%92%94%F0%9F%98%B9%F0%9F%98%B9%F0%9F%98%B9";
-    let whatsappLink = "https://wa.me/?text=" + message;
+    let whatsappLink = "https://wa.me/+2348050255377?text=" + message;
     window.open(whatsappLink, '_blank');
 });
