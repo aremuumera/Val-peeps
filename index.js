@@ -49,7 +49,7 @@ document.querySelector('.luv-button').addEventListener('click', (e) =>{
 });
 
 document.querySelector('.love-button button:first-child').addEventListener('click', () => {
-    let message = "Hello%20there,%20I%20am%20interested%20in%20your%20services%0A%0AYes%20I%20will%20my%20baby%F0%9F%A5%B9%F0%9F%A4%8D%20I%20love%20you%20so%20much%F0%9F%A4%8D%20thanks%20for%20always%20been%20there%20for%20me.%0A%0AHappy%20Valentino%20babe%F0%9F%A4%AD%F0%9F%AB%B6%F0%9F%8F%BD";
+    let message = "I%20will%20my%20baby%F0%9F%A5%B9%F0%9F%A4%8D%20I%20love%20you%20so%20much%F0%9F%A4%8D%20thanks%20for%20always%20been%20there%20for%20me.%0A%0AHappy%20Valentino%20babe%F0%9F%A4%AD%F0%9F%AB%B6%F0%9F%8F%BD";
     let whatsappLink = "https://wa.me/+2348050255377?text=" + message; // Corrected URL format
     window.open(whatsappLink, '_blank');
 });
