@@ -339,18 +339,24 @@ body{
         height: 630px;
     }
     .love-content h1{
-        font-size:2.2rem;
+        font-size:2rem;
     }
     .love-content h2{
         padding-top: 30px;
-        line-height: 35px;
+        line-height: 32px;
         font-size: 1.5rem;
       }
 }
 
 @media screen and (max-width: 360px){
     .love-content{
-        width: 320px;
+        width: 330px;
         height: 610px;
+    }
+    .love-content h3{
+        padding-top:20px ;
+    }
+    .love-content .love-button {
+        padding-top: 15px;
     }
 }
