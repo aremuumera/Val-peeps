@@ -40,22 +40,22 @@ const timer = setInterval(type, 100); // Typing speed: 50 milliseconds
 
 document.querySelector('.luv-button').addEventListener('click', (e) =>{
     console.log(e);
-    if(e.isTrusted === true){
-        document.querySelector('.before-container').classList.add('close');
-        document.querySelector('.container').classList.add('open');
-    }
-     
+    document.querySelector('.container').classList.add('open');
+    document.querySelector('.before-container').classList.add('slide-out-top');
+    setTimeout(() => {
+        document.querySelector('.before-container').style.display = 'none';
+    }, 0)
     console.log(e);
 });
 
 document.querySelector('.love-button button:first-child').addEventListener('click', () => {
-    let message = "Hello%20there,%20I%20am%20interested%20in%20your%20services";
+    let message = "Hello%20there,%20I%20am%20interested%20in%20your%20services%0A%0AYes%20I%20will%20my%20baby%F0%9F%A5%B9%F0%9F%A4%8D%20I%20love%20you%20so%20much%F0%9F%A4%8D%20thanks%20for%20always%20been%20there%20for%20me.%0A%0AHappy%20Valentino%20babe%F0%9F%A4%AD%F0%9F%AB%B6%F0%9F%8F%BD";
     let whatsappLink = "https://wa.me/+2348050255377?text=" + message; // Corrected URL format
     window.open(whatsappLink, '_blank');
 });
 
 document.querySelector('.love-button button:last-child').addEventListener('click', () => {
-    let message = "Hello%20there,%20I%20am%20interested%20in%20your%20services";
+    let message = "I%20am%20so%20sorry%20I%20can't%20be%20your%20val%F0%9F%92%94%F0%9F%98%B9%F0%9F%98%B9%F0%9F%98%B9";
     let whatsappLink = "https://wa.me/?text=" + message;
     window.open(whatsappLink, '_blank');
 });
